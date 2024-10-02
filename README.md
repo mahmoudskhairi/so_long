@@ -78,6 +78,12 @@ int	main(int ac, char *av[])
   <img src="so_long2.jpg" alt="Libft Logo" style="max-width: 100%; height: auto;">
 </p>
 
+### $42 map
+<p align="center">
+  <img src="so_long_42.jpg" alt="Libft Logo" style="max-width: 100%; height: auto;">
+</p>
+
+
 <h2 id="contact">Contact</h2>
 <p>For any questions, feedback, or issues, feel free to reach out:</p>
 <ul>
