@@ -1,15 +1,8 @@
 # 42 So Long Project
 
-# mahmoud map
 <p align="center">
-  <img src="so_long1.jpg" alt="Libft Logo" style="max-width: 100%; height: auto;">
+  <img src="so_long.png" alt="Libft Logo" style="max-width: 100%; height: auto;">
 </p>
-
-# snake map
-<p align="center">
-  <img src="so_long2.jpg" alt="Libft Logo" style="max-width: 100%; height: auto;">
-</p>
-
 ## Project Overview
 
 <p>
@@ -42,15 +35,47 @@ make
 <pre>
 #include "so_long.h"
 
-int main(int argc, char *argv[]) {
-    if (argc != 2) {
-        ft_printf("Usage: ./so_long <map_file>\n");
-        return (1);
-    }
-    start_game(argv[1]);
-    return (0);
+.
+.
+.
+
+int	main(int ac, char *av[])
+{
+	t_data	data;
+	int		fd;
+
+	data.map = NULL;
+	data.mapcpy = NULL;
+	if (ac == 2)
+	{
+		if (ft_check_filename(av[1]))
+			ft_print_error("Error\n:(.ber!)");
+		fd = open(av[1], O_RDONLY, 0777);
+		if (fd == -1)
+			ft_print_error("Error\ninvalid path of map!");
+		ft_read_file(fd, &(data));
+		ft_check_maps(data.mapcpy);
+	}
+	else
+		ft_print_error("Error\ninvalid number of arguments!");
+	if (ft_strlen(data.map[0]) > 40 || ft_lineslen(data.map) > 21)
+		ft_print_error("Error\nbig map!");
+	ft_graphic(&data);
+	ft_free_array(data.map);
 }
 </pre>
+
+## Examples
+
+# mahmoud map
+<p align="center">
+  <img src="so_long1.jpg" alt="Libft Logo" style="max-width: 100%; height: auto;">
+</p>
+
+# snake map
+<p align="center">
+  <img src="so_long2.jpg" alt="Libft Logo" style="max-width: 100%; height: auto;">
+</p>
 
 <h2 id="contact">Contact</h2>
 <p>For any questions, feedback, or issues, feel free to reach out:</p>
