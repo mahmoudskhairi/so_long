@@ -52,14 +52,11 @@ int main(int argc, char *argv[]) {
 }
 </pre>
 
-## License
-
-<p>This project is licensed under the MIT License.</p>
-
-## Contact
-
-<p>For any questions or collaborations, please reach out:</p>
+<h2 id="contact">Contact</h2>
+<p>For any questions, feedback, or issues, feel free to reach out:</p>
 <ul>
-  <li>Email: your_email@example.com</li>
-  <li>GitHub: <a href="https://github.com/your_username">your_username</a></li>
+  <li>Email: <a href="mailto:mahmoud.skhairi@gmail.com">mahmoud.skhairi@gmail.com</a></li>
+  <li>LinkedIn: <a href="https://www.linkedin.com/in/mahmoud-skhairi" target="_blank">mahmoud skhairi</a></li>
 </ul>
+
+<h2>Happy Coding!</h2>
