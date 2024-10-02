@@ -3,6 +3,7 @@
 <p align="center">
   <img src="so_long.png" alt="Libft Logo" style="max-width: 100%; height: auto;">
 </p>
+
 ## Project Overview
 
 <p>
