@@ -70,12 +70,12 @@ int	main(int ac, char *av[])
 ### $mahmoud map
 
 <p align="center">
-  <img src="so_long1.jpg" alt="Libft Logo" style="max-width: 100%; height: auto;">
+  <img src="so_long_mahmoud.jpg" alt="Libft Logo" style="max-width: 100%; height: auto;">
 </p>
 
 ### $snake map
 <p align="center">
-  <img src="so_long2.jpg" alt="Libft Logo" style="max-width: 100%; height: auto;">
+  <img src="so_long_snake.jpg" alt="Libft Logo" style="max-width: 100%; height: auto;">
 </p>
 
 ### $42 map
