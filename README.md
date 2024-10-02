@@ -24,7 +24,7 @@ The **So Long** project is a graphical game developed using the MiniLibX library
 <p>To install and run this project:</p>
 
 <pre>
-https://github.com/mahmoudskhairi/so_long_42.git
+git clone https://github.com/mahmoudskhairi/so_long_42.git
 cd so_long
 make
 </pre>
