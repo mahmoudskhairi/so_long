@@ -35,9 +35,11 @@ make
 <pre>
 #include "so_long.h"
 
-.
-.
-.
+
+#see the main file of so_long
+#see the main file of so_long
+#see the main file of so_long
+
 
 int	main(int ac, char *av[])
 {
